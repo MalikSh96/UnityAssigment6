@@ -39,7 +39,6 @@ public class TileManager : MonoBehaviour
     {
         activeTiles = new List<GameObject>();
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform; //gets position  
-
         //to spawn tiles at start, eventually this will run out, so we continue in update
         for (int i = 0; i < amountOfTilesOnScreen; i++)
         {

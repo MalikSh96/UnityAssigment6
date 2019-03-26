@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2612628932070274676}
   m_Layer: 0
   m_Name: Fence
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 7043714814170628880}
   m_Layer: 0
   m_Name: Bridge
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -163,9 +163,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3227410170206651741}
+  - component: {fileID: 7066854657585680544}
   m_Layer: 0
-  m_Name: Bridge 1
-  m_TagString: Untagged
+  m_Name: Bridge
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -178,7 +179,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9033483666209699761}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 6.33}
+  m_LocalPosition: {x: 0, y: 0, z: 5.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2226555316237873839}
@@ -187,6 +188,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7066854657585680544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9033483666209699761}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.83, y: 0.09, z: 10.35}
+  m_Center: {x: 0, y: 0, z: -2.45}
 --- !u!1001 &7968652328630399780
 PrefabInstance:
   m_ObjectHideFlags: 0
