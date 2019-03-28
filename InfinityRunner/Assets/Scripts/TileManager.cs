@@ -25,7 +25,7 @@ public class TileManager : MonoBehaviour
     private float tileLength = 6.31f;
 
     //how many tiles do we need on the screen (depends on machine)
-    private int amountOfTilesOnScreen = 7;
+    private int amountOfTilesOnScreen = 20;
 
     //List to keep track of older tiles
     private List<GameObject> activeTiles;
